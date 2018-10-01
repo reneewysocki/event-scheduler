@@ -9,3 +9,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#currentTime {
+    font-size: 24px;
+    margin: 10px;
+}
