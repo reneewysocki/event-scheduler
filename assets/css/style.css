@@ -1,0 +1,11 @@
+.header {
+    background-color: lightblue;
+    text-align: center;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
