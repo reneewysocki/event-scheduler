@@ -1,8 +1,25 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: darkred; 
+}
+
 .header {
-    background-color: lightblue;
+    background-color: rgba(5,105,244,0.75);
     text-align: center;
-    height: 120px;
+    /* height: 120px; */
     margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    border-bottom: 5px solid #030EF2;
 }
 
 .body {
@@ -10,7 +27,69 @@
     margin-bottom: 20px;
 }
 
+/* #trainTable {
+    text-align: center; 
+    border: 1px solid black;
+} 
+*/
+
+#trainTableDiv {
+    /* text-align: center; */
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #f2f2f2
+}
+
+#add {
+    /* width: 50%; */
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+#currentTimeDiv {
+    background-color: #F4E106;
+    border: 2px solid #F09E04;
+    font-size: 24px;
+    margin-bottom: 30px; 
+    padding: 5px;
+    /* color: white; */
+    width: 60%;
+    margin: auto;
+}
+
 #currentTime {
     font-size: 24px;
-    margin-bottom: 20px;
+    text-align: left;
+}
+
+#timeLabel {
+    text-align: right;
+}
+
+#newTrainBtn {
+    background-color: #0569F4;
+    color: white;
+}
+
+#newTrainBtn:hover {
+    background-color: #030EF2;
+    color: white;
+}
+
+.title {
+    font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+    font-size: 60px;
 }
