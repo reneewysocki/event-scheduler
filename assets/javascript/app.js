@@ -44,13 +44,13 @@ $(document).ready(function () {
         //Uploads train data to the database
         database.ref().push(newTrain);
 
-        sortTimes();
-
         //clears form
         $('#trainNameInput').val("");
         $('#destInput').val("");
         $('#firstTrainInput').val("");
         $('#freqInput').val("");
+
+        sortTimes();
 
 
     });

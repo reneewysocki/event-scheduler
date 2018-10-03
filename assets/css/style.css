@@ -27,11 +27,10 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* #trainTable {
-    text-align: center; 
-    border: 1px solid black;
+ #trainTable {
+    font-size: 18px;
 } 
-*/
+
 
 #trainTableDiv {
     /* text-align: center; */
@@ -42,12 +41,12 @@ a:hover {
 }
 
  tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: rgba(127,127,127,0.08);
 } 
 
 
 th {
-    background-color: #f2f2f2;
+    background-color: #cecece;
 }
 
 #add {
